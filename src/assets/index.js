@@ -21,6 +21,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
@@ -29,6 +30,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import todo from "./todo.png";
+import worldapp from "./worldapp.png";
+import youtube from "./youtube.png";
+import ecomm from "./ecomm.png"
 
 export {
   logos,
@@ -56,6 +61,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  todo,
+  worldapp,
+  youtube,
+  ecomm,
   carrent,
   jobit,
   tripguide,
