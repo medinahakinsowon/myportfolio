@@ -33,7 +33,8 @@ import tripguide from "./tripguide.png";
 import todo from "./todo.png";
 import worldapp from "./worldapp.png";
 import youtube from "./youtube.png";
-import ecomm from "./ecomm.png"
+import ecomm from "./ecomm.png";
+import pythontodo from './pythontodo.png';
 
 export {
   logos,
@@ -65,6 +66,7 @@ export {
   worldapp,
   youtube,
   ecomm,
+  pythontodo,
   carrent,
   jobit,
   tripguide,

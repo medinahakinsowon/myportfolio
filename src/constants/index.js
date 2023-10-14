@@ -23,6 +23,7 @@ import {
   worldapp,
   youtube,
   ecomm,
+  pythontodo,
   threejs,
 } from "../assets";
 
@@ -281,6 +282,27 @@ const projects = [
     ],
     image: ecomm,
     source_code_link: "https://github.com/",
+  },
+  {
+    name: "Python Todoapp",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pythontodo,
+    source_code_link: "https://github.com/medinahakinsowon/pythontodoapp.git",
   },
 ];
 
