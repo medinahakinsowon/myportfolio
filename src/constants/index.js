@@ -202,18 +202,18 @@ const projects = [
   {
     name: "Todo-App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based app, for our daily shores. It gives the user an opportunity to write down the dos of the day, managing time for efficiency",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
@@ -223,14 +223,14 @@ const projects = [
   {
     name: "Youtube-Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that gives the feel of the usual youtube app. Offering various channels that gives different information with visuals in pictures and videos ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "rapidApi",
         color: "green-text-gradient",
       },
       {
@@ -244,14 +244,14 @@ const projects = [
   {
     name: "World-Countries-App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A react base application, that gives a user an opportunity to know the countries around the world. It was built using restcountry api following the documentation offered on the api page.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restcountryApi",
         color: "green-text-gradient",
       },
       {
@@ -265,14 +265,14 @@ const projects = [
   {
     name: "Ecommerce",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "An ecommerce wedsite, with the functionality of viewing products and making payments",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -286,14 +286,14 @@ const projects = [
   {
     name: "Python Todoapp",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web-based app, for our daily shores. It gives the user an opportunity to write down the dos of the day, managing time for efficiency",
     tags: [
       {
-        name: "nextjs",
+        name: "django",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "html",
         color: "green-text-gradient",
       },
       {

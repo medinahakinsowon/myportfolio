@@ -39,7 +39,7 @@ const About = () => {
       <h2 className={styles.sectionHeadText}>Overview.</h2>
      </motion.div>
       <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-5 text-secondary text-[18px] max-w-3xl leading-[30px]'>
-         I'm a skilled  webapp developer, with experience in Html, css and Javascript. And expertise in frameworks like React and Django.I'm a fast learner and can collaborate with clients to develop and build an efficient and scalable webapp that solves related problems. Bring in your IDEAS and let work on it together.
+         I'm a skilled  webapp developer, with experience in Html, css and Javascript. Expertise in frameworks like React and Django.I'm a fast learner and can collaborate with clients to develop and build an efficient and scalable webapp that solves related problems. Bring in your IDEAS and let work on it together.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-12'>
