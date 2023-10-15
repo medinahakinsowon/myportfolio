@@ -35,6 +35,7 @@ import worldapp from "./worldapp.png";
 import youtube from "./youtube.png";
 import ecomm from "./ecomm.png";
 import pythontodo from './pythontodo.png';
+import myProject from './myProject.png';
 
 export {
   logos,
@@ -67,6 +68,7 @@ export {
   youtube,
   ecomm,
   pythontodo,
+  myProject,
   carrent,
   jobit,
   tripguide,

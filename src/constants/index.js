@@ -24,6 +24,7 @@ import {
   youtube,
   ecomm,
   pythontodo,
+  myProject,
   threejs,
 } from "../assets";
 
@@ -303,6 +304,27 @@ const projects = [
     ],
     image: pythontodo,
     source_code_link: "https://github.com/medinahakinsowon/pythontodoapp.git",
+  },
+  {
+    name: "Note App",
+    description:
+      "Web-based app, for our daily shores. It gives the user an opportunity to write down the dos of the day, managing time for efficiency",
+    tags: [
+      {
+        name: "django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: myProject,
+    source_code_link: "https://github.com/medinahakinsowon/noteapp.git",
   },
 ];
 
