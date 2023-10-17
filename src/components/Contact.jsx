@@ -30,8 +30,8 @@ const Contact = () => {
     e.preventDefault();
     setLoading();
 
-    emailjs.send('service_7pt913j', 'template_w5sfg0s', {
-      form_name : form.name,
+    emailjs.send('service_7pt913j', 'template_mfmy68i', {
+      from_name : form.name,
       to_name : 'Medinat Akinsowon',
       from_email : form.email,
       to_email : 'medinahakinsowon@gmail.com',
@@ -93,7 +93,7 @@ const Contact = () => {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder='What is your name'
+                placeholder='What is your email'
                 className='bg-tertiary py-4 px-6 placeholder:text-secondary
                  text-white rounded-lg outlined-none border-none font-medium'
               />
