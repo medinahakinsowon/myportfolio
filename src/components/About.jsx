@@ -34,22 +34,29 @@ const ServiceCard = ({index, title, icon})=> {
 const About = () => {
   return (
     <>
-     <motion.div>
-      <p className={styles.sectionSubText}>Introduction</p>
-      <h2 className={styles.sectionHeadText}>Overview.</h2>
-     </motion.div>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className='mt-5 text-secondary text-[18px] max-w-3xl leading-[30px]'>
-         I'm a skilled  webapp developer, with experience in Html, css and Javascript. Expertise in frameworks like React and Django.I'm attentive to details and can collaborate with clients to develop and build an efficient and scalable webapp that solves related problems. Bring in your IDEAS and let work on it together.
+      <motion.div>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      </motion.div>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-5 text-secondary text-[18px] max-w-3xl leading-[30px]"
+      >
+        I'm a skilled full stack developer specializing in the MERN stack —
+        MongoDB, Express, React, and Node.js — with a strong foundation in HTML,
+        CSS, and JavaScript. I'm attentive to detail and enjoy collaborating
+        with clients to build efficient, scalable web applications that solve
+        real problems. Bring your ideas, and let's build something great
+        together.
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-12'>
-         {services.map((service, index)=>(
-          <ServiceCard key={service.title} index={index} {...service}/>
-         ))}
+      <div className="mt-20 flex flex-wrap gap-12">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
       </div>
-
     </>
-  )
+  );
 }
 
 export default SectionWrapper(About, "about") 

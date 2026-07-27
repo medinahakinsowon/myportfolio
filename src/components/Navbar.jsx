@@ -16,7 +16,7 @@ const Navbar = () => {
            className='flex items-center gap-2'
            onClick={()=>{
             setActive("");
-            windows.scrollTo(0, 0);
+            window.scrollTo(0, 0);
            }}
          >
           <img src={logos} alt='logo' className='h-9 w-9 object-contain'/>
@@ -25,7 +25,7 @@ const Navbar = () => {
          <ul className='list-none hidden sm:flex flex-row gap-10'>
             {navLinks.map((link)=>(
               <li key={link.id} className={`${active === link.title ? "text-white" : "text-secondary" } hover:text-white text-[20] font-medium cursur-pointer`} onClick={()=> setActive(link.title)}>
-                 <a href={`${link.id}`}>
+                 <a href={`#${link.id}`}>
                    {link.title}
                  </a>
               </li>
@@ -47,7 +47,7 @@ const Navbar = () => {
                 setToggle(!toggle);
                 setActive(link.title);
               }}>
-                 <a href={`${link.id}`}>
+                 <a href={`#${link.id}`}>
                    {link.title}
                  </a>
               </li>
