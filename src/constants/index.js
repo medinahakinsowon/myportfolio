@@ -23,7 +23,8 @@ import {
   worldapp,
   youtube,
   ecomm,
-  pythontodo,
+  jobs,
+  incomeApp,
   myProject,
   threejs,
 } from "../assets";
@@ -285,25 +286,29 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Python Todoapp",
+    name: "Job-App",
     description:
-      "Web-based app, for our daily shores. It gives the user an opportunity to write down the dos of the day, managing time for efficiency",
+      "Web-based app, develop for posting application and job seekers ",
     tags: [
       {
-        name: "django",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "html",
+        name: "Mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: pythontodo,
-    source_code_link: "https://github.com/medinahakinsowon/pythontodoapp.git",
+    image: jobs,
+    source_code_link: "https://github.com/medinahakinsowon/jobs.git",
   },
   {
     name: "Note App",
