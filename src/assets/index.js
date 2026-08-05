@@ -26,6 +26,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sumatsdigital from "./sumatsdigital.png"
+import sumatspice from "./sumatspicelogo.png"
+import frozen from "./frozenicon.jpg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -36,6 +39,8 @@ import youtube from "./youtube.png";
 import ecomm from "./ecomm.png";
 import pythontodo from './pythontodo.png';
 import myProject from './myProject.png';
+import jobs from "./jobs.png"
+import incomeApp from "./incomeApp.png"
 
 export {
   logos,
@@ -63,6 +68,9 @@ export {
   shopify,
   starbucks,
   tesla,
+  sumatsdigital,
+  sumatspice,
+  frozen,
   todo,
   worldapp,
   youtube,
@@ -72,4 +80,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  jobs,
+  incomeApp
 };

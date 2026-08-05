@@ -19,14 +19,17 @@ import {
   starbucks,
   tesla,
   shopify,
+  sumatsdigital,
+  sumatspice,
+  frozen,
   todo,
   worldapp,
   youtube,
   ecomm,
   jobs,
-  incomeApp,
   myProject,
   threejs,
+  incomeApp
 } from "../assets";
 
 export const navLinks = [
@@ -121,10 +124,10 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Sumateq Ceramics",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2023",
+    company_name: "Sumatspice",
+    icon: sumatspice,
+    iconBg: "#E6DEDD",
+    since: "March 2020",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -135,9 +138,9 @@ const experiences = [
   {
     title: "Content Creator",
     company_name: "Sumatsdigital",
-    icon: tesla,
+    icon: sumatsdigital,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2023",
+    since: "Jan 2021",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -146,24 +149,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Codar",
-    icon: shopify,
+    title: "Frontend Developer",
+    company_name: "Cloudethusiast",
+    icon: frozen,
     iconBg: "#383E56",
-    date: "Jan 2023 - Sep 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Codar",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2023 - Dec 2025",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -201,6 +191,76 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Ecommerce",
+    description:
+      "An ecommerce wedsite, with the functionality of viewing products and making payments",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecomm,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job-App",
+    description:
+      "Web-based app, develop for posting applications and for job seekers.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobs,
+    source_code_link: "https://github.com/medinahakinsowon/jobs.git",
+  },
+  {
+    name: "Income Tracker",
+    description: "Web-based app, for our tracking our income and daily spendings.",
+    tags: [
+      {
+        name: "nodejs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Tailwindcss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: incomeApp,
+    source_code_link: "https://github.com/medinahakinsowon/personalExpense.git",
+  },
   {
     name: "Todo-App",
     description:
@@ -263,73 +323,6 @@ const projects = [
     ],
     image: worldapp,
     source_code_link: "https://github.com/medinahakinsowon/countryapi.git",
-  },
-  {
-    name: "Ecommerce",
-    description:
-      "An ecommerce wedsite, with the functionality of viewing products and making payments",
-    tags: [
-      {
-        name: "html",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: ecomm,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job-App",
-    description:
-      "Web-based app, develop for posting application and job seekers ",
-    tags: [
-      {
-        name: "nodejs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "React",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "Tailwindcss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobs,
-    source_code_link: "https://github.com/medinahakinsowon/jobs.git",
-  },
-  {
-    name: "Note App",
-    description:
-      "Web-based app, for our daily shores. It gives the user an opportunity to write down the dos of the day, managing time for efficiency",
-    tags: [
-      {
-        name: "django",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: myProject,
-    source_code_link: "https://github.com/medinahakinsowon/noteapp.git",
   },
 ];
 
