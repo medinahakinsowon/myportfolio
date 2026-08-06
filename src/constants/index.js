@@ -177,7 +177,7 @@ const testimonials = [
       "I've never met a web developer who truly cares about their clients' success like Medinat does.",
     name: "Dele Olaore",
     designation: "CEO",
-    company: "DEF Corp",
+    company: "CTO, Deeproot Technologies Limited",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
   },
   {
