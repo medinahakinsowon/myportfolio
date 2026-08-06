@@ -170,22 +170,22 @@ const testimonials = [
     name: "Tajuddin Akinsowon",
     designation: "Project Manager",
     company: "Sumateq Ceramics",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Medinat does.",
-    name: "Chris Brown",
-    designation: "CEO",
-    company: "DEF Corp",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Medinat optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "I've never met a web developer who truly cares about their clients' success like Medinat does.",
+    name: "Dele Olaore",
+    designation: "CEO",
+    company: "DEF Corp",
+    image: "https://randomuser.me/api/portraits/men/32.jpg",
+  },
+  {
+    testimonial:
+      "After Medinat optimized our website, our traffic increased by 50%. We can't thank her enough!",
+    name: "Sakiinah Amosu",
+    designation: "Head Teacher",
+    company: "Tranquil Academy",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
